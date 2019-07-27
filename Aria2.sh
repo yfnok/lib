@@ -129,7 +129,7 @@ gdlist_install(){
 }
 
 aria2ng_install(){
-    mkdir -p /home/wwwroot/${domain2} && cd /home/wwwroot/${domain2} && wget ${aria2ng_download_http} && unzip aria-ng-${aria2ng_new_ver}.zip
+    mkdir -p /home/wwwroot/${domain2} && cd /home/wwwroot/${domain2} && wget ${aria2ng_download_http} && unzip AriaNg-${aria2ng_new_ver}.zip
 	if [[ $? -eq 0 ]];then
         echo -e "${OK} ${GreenBG} AriaNg 下载成功 ${Font}"
         sleep 1
