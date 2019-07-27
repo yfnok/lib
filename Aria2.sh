@@ -23,7 +23,7 @@ caddyfile="/usr/local/caddy/"
 caddy_file="/usr/local/caddy/caddy"
 caddy_conf_file="/usr/local/caddy/Caddyfile"
 aria2ng_new_ver="1.1.1"
-aria2ng_download_http="https://github.com/mayswind/AriaNg/releases/download/${aria2ng_new_ver}/aria-ng-${aria2ng_new_ver}.zip"
+aria2ng_download_http="https://github.com/mayswind/AriaNg/releases/download/${aria2ng_new_ver}/AriaNg-${aria2ng_new_ver}.zip"
 aria2_new_ver="1.33.1"
 
 bit=`uname -m`
