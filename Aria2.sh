@@ -204,11 +204,11 @@ file-allocation=trunc
 continue=true
 
 
-max-concurrent-downloads=10
+max-concurrent-downloads=20
 max-connection-per-server=5
 min-split-size=10M
 split=20
-max-overall-upload-limit=10K
+max-overall-upload-limit=1K
 disable-ipv6=false
 input-file=/root/.aria2/aria2.session
 save-session=/root/.aria2/aria2.session
